@@ -11,18 +11,24 @@
 
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- https://www.cdnfonts.com/walt-disney-script.font -->
+    <link href="https://fonts.cdnfonts.com/css/walt-disney-script" rel="stylesheet">
+                
 </head>
 <body>
 
     <!-- Section protagonistas -->
     <div class="container-md">
         <div class="row">
+          <h1 id="start" class="text-center titulo">Bautizo de Marina y Paula</h1>
           <div class="col-md">
-            <h1 class="text-center titulo">Bautizo de Marina y Paula</h1>
-    
-              <img src="img/i1.jpg" class="rounded float-sm-start border border-1 border-dark" alt="Marina" style="width:400px;height:auto;">
-              <img src="img/i1.jpg" class="rounded float-sm-end border border-1 border-dark" alt="Paula" style="width:400px;height:auto;">
-                
+            <h1 class="text-center nombres">Marina</h1>
+            <img src="img/i1.jpg" class="rounded mx-auto d-block border border-1 border-dark" alt="Marina" style="width:400px;height:auto;">
+          </div>
+          <div class="col-md">
+            <h1 class="text-center nombres">Paula</h1>
+            <img src="img/i1.jpg" class="rounded mx-auto d-block border border-1 border-dark" alt="Paula" style="width:400px;height:auto;">
           </div>
         </div>
     </div>
@@ -34,91 +40,145 @@
         <div class="row">
           <div class="col-md">
             <h1 class="text-center titulo">La invitación</h1>            
-            <img src="img/invitacion_bautizo.jpeg" class="rounded mx-auto d-block border border-1 border-dark" alt="Invitacion al bautizo de Marina y Paula" width="400" height="400" />
+            <img src="img/invitacion_bautizo.jpeg" class="rounded mx-auto d-block" alt="Invitacion al bautizo de Marina y Paula" width="400" height="400" />
           </div>
         </div>
     </div>
     <br>
     <br>
 
-
-    <h1>La ceremonia</h1>
-    La ceremonia se realizara en la guardia <br>
-    <img src="img/la_guardia_toledo.jpg" alt="Invitacion al bautizo de Marina y Paula" width="960" height="539" /> <br>
-    Parroquia Nuestra Señora de la Asunción. <br>
-
-
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <!-- Section ceremonia -->
+    <div class="container-md">
+      <div class="row">
+        <div class="col-md">
+          <h1 class="text-center titulo">La ceremonia</h1>
+          La ceremonia del <strong>bautismo</strong> (romanización: baptó o baptizó, significado: «lavar» o «sumergir») se realizara 
+          en el municipio de <strong>La Guardia</strong>, provincia de <strong>Toledo</strong>, en la comunidad autónoma 
+          de Castilla la Mancha. 
+          <br>
+          <br>
         </div>
-
-        <!--
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="parroquia01.jpg" class="d-block w-100" alt="Parroquia 01">
-          </div>
-          <div class="carousel-item">
-            <img src="parroquia01.jpg" class="d-block w-100" alt="Parroquia 01">
-          </div>
-          <div class="carousel-item">
-            <img src="parroquia02.jpg" class="d-block w-100" alt="Parroquia 01">
-          </div>
-        </div>
-        -->
-
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="parroquia01.jpg" style="width:50%;" alt="Parroquia 01">
-            </div>
-            <div class="carousel-item">
-              <img src="parroquia01.jpg" style="width:50%;" alt="Parroquia 01">
-            </div>
-            <div class="carousel-item">
-              <img src="parroquia02.jpg" style="width:50%;" alt="Parroquia 01">
-            </div>
-          </div>
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
+      <div class="row">
+        <div class="col-md">
+
+          <figure>
+            <img src="img/la_guardia_toledo.jpg" class="rounded mx-auto d-block border border-1 border-dark" 
+            alt="La Guardia" width="860" height="439" />
+            <figcaption class="text-center">La Guardia (Toledo)</figcaption>
+          </figure>
+
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+
+    
+
+
+    <div class="container-md">
+      <div class="row">
+        <div class="col-md">
+          Iglesia parroquial Nuestra Señora de la Asunción. Construida entre los siglos xvii y xviii.<br>
+
+          <img src="img/parroquia01.jpg" alt="Parroquia de la Guardia"/> <br>
+
+          <address>
+            Dirección: C. Mayor, 45760, La Guardia, Toledo
+          </address>
+
+          
+          
+
+
+          
+
+          <!-- 
+          <div id="carouselExampleIndicators" class="carousel slide my-carousel" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>        
+    
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/parroquia01.jpg" style="width:100%;" alt="Parroquia 01" style="width:400px;height:250px;">
+                  <img src="img/parroquia01.jpg" class="d-block w-100" alt="Parroquia 01">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/parroquia02.jpg" class="d-block w-100" alt="Parroquia 01">
+                </div>
+              </div>
+    
+            <button class="carousel-control-prev my-carousel" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+    
+            <button class="carousel-control-next my-carousel" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          -->
+          
+        </div>
+      </div>
+    </div>
+  <br>
+  <br>
+    
+
+
+    
 
     <br>    
     <br>
     <br>
-    <img src="parroquia01.jpg" alt="Invitacion al bautizo de Marina y Paula" width="400" height="400" /> <br>
-    Dirección: 45760, C. Mayor, 45760 La Guardia, Toledo <br>
-    Teléfono: 925 13 82 79
     
-    <h1>El banquete</h1>
-    Restaurante Hostal El Amigo <br>
-    <img src="salones01.jpg" alt="Invitacion al bautizo de Marina y Paula" width="680" height="510" /> <br>
-    Dirección: Ctra Andalucía, Km 57.200, 45300 Ocaña, Toledo <br>
-    Teléfono: 925 13 02 85 <br>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12231.157284226343!2d-3.5472185!3d39.9684628!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe6504df4a55033b6!2sRestaurante%20Hostal%20El%20Amigo!5e0!3m2!1ses!2ses!4v1670263572009!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+
+
+
+
+    <!-- Section Banquete -->
+    <div class="container-md">
+      <div class="row">
+        <div class="col-md">
+          <h1 class="text-center titulo">El banquete</h1>
+          Restaurante Hostal El Amigo <br>
+          <img src="img/salones01.jpg" alt="Invitacion al bautizo de Marina y Paula" width="680" height="510" /> <br>
+          <address>
+            Dirección: Ctra Andalucía, Km 57.200, 45300 Ocaña, Toledo <br>
+            Teléfono: 925 13 02 85
+          </address>
+          
+          
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12231.157284226343!2d-3.5472185!3d39.9684628!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe6504df4a55033b6!2sRestaurante%20Hostal%20El%20Amigo!5e0!3m2!1ses!2ses!4v1670263572009!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <br>
+        </div>
+      </div>
+    </div>
     <br>
-    
-    
-    
-    
-    <h1>El menú</h1>
+    <br>
+
 
     <!-- Section menú-->
     <div class="container-md">
+      <h1 class="text-center titulo">Los Menús</h1>
         <div class="row">
           <div class="col-md">
-            <h1 class="text-center titulo">El Menú</h1>
+            <h1 class="text-center subtitulo">Menú adultos</h1>
             <a href="files/menu_adultos.pdf">
                 <img src="img/menu_adultos.png" class="rounded mx-auto d-block border border-1 border-dark" alt="Menú adultos" style="width:400px;height:auto;">
+            </a>
+          </div>
+          <div class="col-md">
+            <h1 class="text-center subtitulo">Menú infantil</h1>            
+            <a href="files/menu_infantil.pdf">
+                <img src="img/menu_infantil.png" class="rounded mx-auto d-block border border-1 border-dark" alt="Menú adultos" style="width:400px;height:auto;">
             </a>
           </div>
         </div>
@@ -126,6 +186,14 @@
     <br>
     <br>
     
+    <hr>
+    <!-- footer section -->
+    <footer>
+      Author: Javier Guzmán Porras
+      <br>
+      <p><a href="mailto:javier.guzman.porras@example.com">javier.guzman.porras@example.com</a></p>
+      <p><a href="#start">Volver arriba</a></p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
